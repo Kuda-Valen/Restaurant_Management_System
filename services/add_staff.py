@@ -1,3 +1,5 @@
 
 def add_staff():
-    print("\nAdd stuff feature coming soon!")
+    print("\n -- Add staff -- \n")
+    first_name = str(input("Enter Staff First Name: ")).strip()
+    last_name = str(input("Enter Staff Last Name: ")).strip()

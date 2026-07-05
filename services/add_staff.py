@@ -1,3 +1,4 @@
+from models.staff import Staff
 
 def add_staff():
     print("\n -- Add staff -- \n")
@@ -8,3 +9,5 @@ def add_staff():
     role = input("Enter Role: ").strip()
     hire_date = input("Enter Hire Date: ").strip()
     salary = input("Enter Salary: ").strip()
+
+    staff = Staff(first_name, last_name, phone, email, role, hire_date, salary)
